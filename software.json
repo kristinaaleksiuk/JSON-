@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Visual Studio",
+    "Version": "2022",
+    "Installed": true,
+    "Tags": [ "IDE", "C#" ],
+    "Category": "Development"
+  },
+  {
+    "name": "Git",
+    "Version": "2.51",
+    "Installed": true,
+    "Tags": [ "Git", "VCS" ],
+    "Category": "Development"
+  },
+  {
+    "name": "Blender",
+    "Version": "4.5",
+    "Installed": false,
+    "Tags": [ "3D", "Graphics" ],
+    "Category": "Graphics"
+  }
+]
