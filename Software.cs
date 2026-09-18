@@ -5,15 +5,13 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace JSONчики
-{
     public class Software
     {
         [JsonRequired]
         [JsonPropertyName("name")]
-        public string Name { get; set; } = string.Empty;
+        public string Name { get; set; } 
 
-        public string Version { get; set; } = string.Empty;
+        public string Version { get; set; } 
 
         public bool Installed { get; set; }
 
@@ -25,4 +23,4 @@ namespace JSONчики
         [JsonInclude]
         public string Category = string.Empty;
     }
-}
+

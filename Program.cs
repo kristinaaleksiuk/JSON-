@@ -56,8 +56,7 @@ softwareList.Add(newSoftware);
 
 string updatedJson = JsonSerializer.Serialize(softwareList, options);
 File.WriteAllText("software_updated.json", updatedJson);
-
 Console.WriteLine();
-Console.WriteLine("Готово! Список сохранён в software_updated.json");
-Console.WriteLine("Проверьте файл: новая программа должна появиться, а поле DisplayName - отсутствовать.");
+Console.WriteLine("Готово!");
+Console.WriteLine("Проверьте файл");
 
